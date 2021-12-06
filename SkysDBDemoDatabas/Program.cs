@@ -20,7 +20,7 @@ namespace SkysDBDemoDatabas
             
             //Connect med connectionString
 
-            var application = new Application();
+            var application = new Application(connectionString);
             application.Run();
         }
     }
